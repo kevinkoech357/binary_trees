@@ -4,6 +4,7 @@
 /* C libraties required */
 #include <stdlib.h>
 #include <stddef.h>
+#include <stdio.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -21,8 +22,6 @@ struct binary_tree_s
 	struct binary_tree_s *left;
 	struct binary_tree_s *right;
 };
-
-typedef struct binary_tree_s binary_tree_t;
 
 /* typedefs */
 typedef struct binary_tree_s binary_tree_t;
